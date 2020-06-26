@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=type
+comment0.target=Alien(boolean)
+comment0.text=\n\ Constructor\ de\ la\ clase\ Alien\n\ Invoca\ el\ constructor\ de\ su\ clase\ padre\ Ufo\ \n\ e\ inicia\ las\ variables\ x\ y\ dx.\n
+comment1.params=
+comment1.target=void\ move()
+comment1.text=\n\ Metodo\ move\ sobreescrito\:\ este\ metodo\ modifica\ la\ coordenada\ x\ del\ \n\ objeto\ alien\ seg\u00FAn\ su\ posici\u00F3n\ y\ su\ valor\ de\ desplazamiento.\n
+numComments=2

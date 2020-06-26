@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.params=x\ y
+comment0.target=Rocket(int,\ int)
+comment0.text=\n\ Constructor\ for\ objects\ of\ class\ Rocket\n\ @param\ int\ x,\ int\ y\ se\ le\ pasan\ los\ parametros\ x\ e\ y\ \n\ de\ las\ coordenadas\ donde\ se\ crear\u00E1.\n
+comment1.params=
+comment1.target=void\ move()
+numComments=2

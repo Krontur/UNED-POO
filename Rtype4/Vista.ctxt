@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Vista()
+comment0.text=\n\ Constructor\ de\ la\ clase\ Vista.\ \n\ A\u00F1ade\ un\ keylistener.\n\ Ajusta\ las\ preferencias\ del\ JPanel\n\ Crea\ una\ nave(craft)\n\ Crea\ un\ timer\ y\ lo\ inicia\ con\ un\ delay\ de\ 5ms.\n
+comment1.params=g
+comment1.target=void\ paint(java.awt.Graphics)
+comment1.text=\n\ El\ metodo\ paint\ pinta\ todos\ los\ objetos\ activos\ que\ hay\ en\ pantalla.\n\ \n\ @param\ \ Graphics\ g\n
+comment2.params=e
+comment2.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment2.text=\n\ metodo\ actionPerformed\ ejecutar\u00E1\ los\ metodos\ necesarios\ cada\ vez\ que\ el\ timer\ avanza.\n
+comment3.params=g2\ ufo
+comment3.target=void\ drawUfo(java.awt.Graphics2D,\ Ufo)
+comment3.text=\n\ Metodo\ drawUfo\:\ Este\ metodo\ dibuja\ en\ el\ JPanel\ la\ imagen\ del\ objeto\ ufo\ \n\ que\ le\ pasemos\ como\ segundo\ parametro.\n\ @param\ Graphics2D\ g2,\ Ufo\ ufo\n
+comment4.params=msg
+comment4.target=void\ finalWindow(java.lang.String)
+comment5.params=
+comment5.target=java.awt.Dimension\ getPreferredSize()
+comment5.text=\n\ Metodo\ Sobreescrito\ getPreferredSize\:\ Se\ sobreescribe\ este\ metodo\ para\n\ que\ el\ tama\u00F1o\ del\ JPanel\ sea\ el\ especificado\ en\ las\ constantes\ WIDTH_SCREEN\n\ y\ HEIGHT_SCREEN.\n
+numComments=6

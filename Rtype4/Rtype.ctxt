@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=alienSpeed\ numAliens
+comment0.target=Rtype(int,\ int)
+comment0.text=\n\ Constructor\ de\ la\ clase\ Rtype\n\ centra\ la\ ventana\ en\ la\ pantalla,\ crea\ la\ ventana\ e\ inicializa\n\ las\ variables\ alienSpeed\ y\ numAliens\ seg\u00FAn\ los\ parametros\ introducidos.\n\ \n\ @param\ introducimos\ como\ parametros\ la\ velocidad\ de\ la\ nave\ alien\ \n\ \ y\ el\ n\u00FAmero\ de\ aliens\ que\ aparecer\u00E1n\ seg\u00FAn\ la\ dificultad\ seleccionada.\n
+comment1.params=
+comment1.target=void\ centerScreen()
+comment1.text=\n\ Metodo\ centerScreen()\ calcula\ el\ centro\ de\ la\ pantalla\ \ y\ centra\ el\ JFrame.\n
+comment2.params=
+comment2.target=void\ makeFrame()
+comment2.text=\n\ Metodo\ makeFrame()\ crea\ el\ frame\ de\ la\ pantalla\ principal\ del\ juego\n\ y\ a\u00F1ade\ el\ JPanel.\n
+numComments=3

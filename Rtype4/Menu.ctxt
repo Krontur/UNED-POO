@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Menu()
+comment0.text=\n\ Constructor\ de\ la\ clase\ Menu\:\ se\ crea\ el\ JPanel\ y\ se\ le\ a\u00F1aden\ los\ botones.\n\ ajustamos\ los\ paremetros\ del\ JPanel\ y\ del\ JFrame.\ A\u00F1ade\ el\ JPanel\ al\ JFrame\ y\ \n\ vuelve\ la\ ventana\ visible.\n\ \n
+comment1.params=
+comment1.target=void\ setButtons()
+comment1.text=\n\ Metodo\ lanzarGUI\ ajusta\ el\ texto\ de\ los\ botones,\ a\u00F1ade\ los\ listeners\ y\ a\u00F1ade\n\ los\ botones\ al\ menu\ de\ selecci\u00F3n\ de\ dificultad.\n\ \n
+comment2.params=e
+comment2.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment3.params=e
+comment3.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment4.params=e
+comment4.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment5.params=e
+comment5.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment6.params=args
+comment6.target=void\ main(java.lang.String[])
+comment6.text=\n\ Metodo\ main\ que\ inicia\ la\ aplicaci\u00F3n\ creando\ el\ menu\ inicial.\n
+numComments=7

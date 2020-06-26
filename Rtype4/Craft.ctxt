@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Craft()
+comment0.text=\n\ Constructor\ de\ los\ objetos\ de\ la\ clase\ Craft.\n\ Llama\ al\ constructor\ de\ la\ clase\ padre\ Ufo\ e\ inicializa\ las\ variables\n\ del\ objeto\ craft.\n
+comment1.params=
+comment1.target=void\ move()
+comment1.text=\n\ Metodo\ move\:\ este\ metodo\ varia\ la\ posici\u00F3n\ en\ x\ e\ y\ \ del\ objeto\ craft\n\ seg\u00FAn\ las\ pulsaciones\ del\ teclado\ y\ dentro\ de\ los\ rangos\ permitidos\ por\ \n\ el\ tama\u00F1o\ de\ la\ pantalla.\ Esto\ ultimo\ se\ consigue\ gracias\ al\ metodo\ clamp.\n
+comment2.params=
+comment2.target=void\ shoot()
+comment2.text=\n\ Metodo\ shoot\:\ este\ metodo\ crea\ un\ nuevo\ objeto\ rocket\ y\ lo\ a\u00F1ade\ al\ arraylist\n\ rockets\ del\ objeto\ craft.\n
+comment3.params=e
+comment3.target=void\ keyPressed(java.awt.event.KeyEvent)
+comment3.text=\n\ Metodo\ keyPressed\:\ este\ metodo\ modifica\ las\ variables\ del\ objeto\ craft\n\ seg\u00FAn\ las\ teclas\ pulsadas\ de\ teclado\ que\ recibe\ del\ TAdapter\ de\ la\ clase\ Vista.\n\ @param\ KeyEvent\ e\n
+comment4.params=e
+comment4.target=void\ keyReleased(java.awt.event.KeyEvent)
+comment4.text=\n\ Metodo\ keyReleased\:\ este\ metodo\ modifica\ las\ variables\ del\ objeto\ craft\n\ seg\u00FAn\ las\ teclas\ soltadas\ de\ teclado\ que\ recibe\ del\ TAdapter\ de\ la\ clase\ Vista.\n\ @param\ KeyEvent\ e\n
+comment5.params=
+comment5.target=java.util.ArrayList\ getRockets()
+comment5.text=\n\ Metodo\ getRockets\:\ metodo\ que\ nos\ devuelve\ el\ arraylist\ de\ los\n\ misiles\ que\ ha\ disparado\ el\ objeto\ craft.\n\ @return\ ArrayList<Ufo>\ rockets.\n
+comment6.params=valor\ min\ max
+comment6.target=int\ clamp(int,\ int,\ int)
+comment6.text=\n\ Metodo\ privado\ clamp\:\ este\ metodo\ de\ soporte\ de\ la\ clase\ craft\ se\ utiliza\ como\ limite\n\ para\ el\ desplazamiento\ del\ objeto\ craft\ dentro\ del\ JPanel\ y\ evitar\ as\u00ED\ que\ se\ salga\n\ de\ la\ pantalla\n\ @param\ int\ valor,\ int\ min,\ int\ max\ valor\:\ valor\ que\ queremos\ introducir,\ max\:\ valor\ m\u00E1ximo\ \n\ posible,\ min\:\ valor\ m\u00EDnimo\ posible\n\ @return\ int\ valor\ devuelve\ el\ valor\ dentro\ del\ rango\ permitido.\n
+numComments=7

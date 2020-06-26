@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Controller()
+comment0.text=\n\ Constructor\ de\ la\ clase\ Controlador\:\ crea\ el\ array\ de\ aliens\ y\ una\ nave\ e\ inicializa\ la\ variable\ aliensAdd\ a\ 0.\n
+comment1.params=
+comment1.target=void\ addAlien()
+comment1.text=\n\ Metodo\ addAlien\:\ Este\ metodo\ es\ el\ encargado\ de\ ir\ creando\ naves\ alienigenas\ de\ \n\ forma\ aleatoria.\n
+comment2.params=al1\ al2
+comment2.target=void\ colision(Ufo,\ Ufo)
+comment2.text=\n\ Metodo\ colision\:\ Este\ metodo\ comprueba\ que\ dos\ objetos\ de\ la\ superclase\ Ufo\ no\ han\ colisionado.\n\ \ \ \ \ \ Lo\ que\ hace\ el\ metodo\ es\ crear\ un\ rectangulo\ a\ partir\ de\ la\ imagen\ de\ los\ objetos\ y\ comprobar\n\ \ \ \ \ \ si\ interesectan\ alguno\ de\ sus\ lados.\n\ @param\ Ufo\ al1,\ Ufo\ al2\n
+comment3.params=ufo1\ ufo2
+comment3.target=void\ checkColision(Ufo,\ java.util.ArrayList)
+comment3.text=\n\ Metodo\ checkColision\:\ Este\ metodo\ utiliza\ el\ metodo\ colision\ para\ comprobar\ si\ hay\n\ hay\ una\ colisi\u00F3n\ entre\ un\ objeto\ ufo\ y\ una\ arraylist\ de\ objetos\ ufo.\n\ \n\ @param\ Ufo\ ufo,\ ArrayList<Ufo>\ ufo2\n
+comment4.params=ufos
+comment4.target=void\ action(java.util.ArrayList)
+comment4.text=\n\ Metodo\ action\:\ este\ metodo\ comprueba\ todos\ los\ objetos\ de\ un\ arraylist\ y\ seg\u00FAn\n\ su\ estado\ o\ los\ elimina\ del\ array\ o\ hace\ que\ se\ muevan.\n\ @param\ ArrayList<Ufo>\ ufos\n
+comment5.params=
+comment5.target=boolean\ finDelJuego()
+comment5.text=\n\ Metodo\ finDelJuego\:\ Este\ metodo\ evalua\ si\ el\ juego\ a\ terminado,\ y\ seg\u00FAn\ el\ final\ del\ juego\n\ (\ si\ han\ perdido\ o\ ganado\ )\ guarda\ el\ mensaje\ que\ se\ mostrar\u00E1\ en\ la\ ventana\ final\ a\ elegir\ \n\ y\ devuelve\n\ \n\ @return\ boolean\n
+comment6.params=
+comment6.target=java.util.ArrayList\ getAliens()
+numComments=7

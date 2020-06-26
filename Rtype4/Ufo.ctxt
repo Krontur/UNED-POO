@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Ufo()
+comment0.text=\n\ Constructor\ de\ la\ clase\ Ufo,\ inicia\ el\ objeto\ como\ activo\ y\ carga\ la\ lista\ \n\ de\ las\ imagenes\ disponibles\ para\ sus\ hijos.\n
+comment1.params=
+comment1.target=void\ move()
+comment1.text=\nMetodo\ abstracto\ move\:\ este\ metodo\ modifica\ la\ posici\u00F3n\ en\ x\ e\ y\ del\ objeto.\ \n
+comment2.params=ufo
+comment2.target=void\ imageResource(java.lang.String)
+comment2.text=\n\ Metodo\ imageResource\:\ este\ metodo\ carga\ la\ imagen\ del\ objeto\ de\ la\ lista\n\ de\ imagenes\ disponibles.\n\ @param\ String\ ufo\ cada\ hijo\ le\ pasar\u00E1\ un\ string\ con\ la\ clave\ para\ el\ hashmap.\n
+comment3.params=
+comment3.target=int\ getX()
+comment3.text=\n\ getx\ nos\ devuelve\ la\ coordenada\ x\ del\ objeto\n\ @return\ int\ x\n
+comment4.params=
+comment4.target=int\ getY()
+comment4.text=\n\ getY\ nos\ devuelve\ la\ coordenada\ y\ del\ objeto\n\ @return\ int\ y\n
+comment5.params=
+comment5.target=boolean\ getActivo()
+comment5.text=\n\ getActivo\ nos\ devuelve\ un\ valor\ booleano\ seg\u00FAn\ sea\ el\ estado\ del\ objeto.\n\ @return\ boolean\ activo.\n
+comment6.params=z
+comment6.target=void\ setActivo(boolean)
+comment6.text=\n\ setActivo\ nos\ deja\ asignar\ un\ estado\ true\ o\ false\ sobre\ la\ variable\n\ activo\ de\ cada\ objeto\ ufo.\n\ @param\ boolean\ z.\ Les\ pasamos\ true\ o\ false,\ seg\u00FAn\ queramos\ marcar\ como\ activo\ \n\ o\ no\ activo.\n
+comment7.params=
+comment7.target=java.awt.Image\ getImage()
+comment7.text=\n\ getImage\ nos\ devuelve\ la\ imagen\ del\ objeto\ ufo.\n\ @return\ Image\ image.\n
+numComments=8
